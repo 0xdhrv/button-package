@@ -14,7 +14,7 @@
     "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
     "lint": "TIMING=1 eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "publish": "npm run build && np"
+    "release": "npm run build && np"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
