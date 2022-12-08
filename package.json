@@ -1,5 +1,5 @@
 {
-  "name": "button-package",
+  "name": "@0xdhrv/button-package",
   "version": "0.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
